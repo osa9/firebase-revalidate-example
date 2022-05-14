@@ -1,0 +1,1 @@
+Firebase Hosting & Cloud Run Revalidate Example
