@@ -38,6 +38,9 @@ const Home: NextPage<Props> = ({now}) => {
       <Head>
         <title>Firebase Revalidate Example</title>
       </Head>
+      <h2>
+        <a href="https://fir-revalidate-example.web.app/">Firebase Revalidate Example</a>
+      </h2>
 
       <div className={styles.main}>
         <p>Server Time: {now}</p>
