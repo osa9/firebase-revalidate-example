@@ -9,7 +9,7 @@ interface Props {
 
 export const getServerSideProps: GetServerSideProps<Props> = async (context) => {
   const now = new Date()
-  context.res.setHeader('cache-control', 'public, s-maxage=31536000')
+  context.res.setHeader('cache-control', 'max-age=0, s-maxage=31536000')
 
   return {
     props: {
